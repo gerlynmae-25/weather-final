@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(to top right, #b748b7, #debff4);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0px 32px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  h2,
+  label {
+    color: #10c2da;
+    margin: 8px 0;
+  }
+  
+  p {
+    color: #000000;
+    margin: 8px 0;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
+  }
+  
+  button {
+    background: #b77ae2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background: #697ce9;
+  }
+  
+  #temp-div p {
+    padding-top: 10px;
+    font-size: 50px;
+    margin-top: -30px;
+  }
+  
+  #weather-info {
+    color: #489db7;
+    font-size: 30px;
+  }
+  
+  #weather-icon {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 10px;
+    text-align: center;
+    display: none;
+  }
+  
+  #seven-day-forecast {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .day-item {
+    flex: 1 0 13%;
+    margin: 5px;
+    background: rgba(63, 7, 57, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .day-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16;
+  }
+  
